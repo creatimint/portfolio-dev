@@ -40,6 +40,15 @@
     border-radius: 5px;
     color: white;
 }
+.button-style2{
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border: #FD6E0A 2px solid;
+    background: transparent;
+    border-radius: 5px;
+    color: #FD6E0A;
+}
 
 /* nav styles */
 /* __________________________________ */
@@ -106,7 +115,9 @@ nav ul{
 .banner .cta{
     /* background-color: none; */
     /* border: #FD6E0A 2px solid; */
-    margin-right: 20px;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
 }
 .banner .image{
     width: 585px;
@@ -159,6 +170,44 @@ main{
     line-height: 30px;
     color: #757575;
 }
-.personal-info > div{
-    
+/* _______________________________________ */
+/* What I Do */
+
+.skill h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+.skill .description{
+    font-size: 18px;
+    font-weight: normal;
+    color: #757575;
+    text-align: center;
+    margin-top: 30px 345px;
+}
+.skills{
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+}
+.skills .item{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+.item img{
+    margin-bottom: 30px;
+}
+.item h4{
+    font-size: 20px;
+    font-weight: bold;
+    color:#181818;
+    margin-bottom: 20px;
+}
+.item p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #757575;
 }
